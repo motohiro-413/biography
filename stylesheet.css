@@ -1,0 +1,131 @@
+.header{
+    border-bottom :3px solid orange ;
+    height:100px;
+    background-color: white;
+    width: 100%;
+    position:fixed;
+    top:0px;
+    z-index:10;
+  }
+  
+  .header-logo{
+    height:95px;
+    width:35%;
+    
+    float: left;
+    margin :2.5px 0px;
+  }
+  
+  .logo{
+    height:90px;
+    width: 70%;
+    
+    margin: 2.5px auto;
+    font-size: 20px;
+  }
+  .logo h1{
+    float: left;
+    margin-top :5px;
+    font-size: 55px;
+    
+  }
+  .logo img{
+    float: left;
+    margin-right:5px;
+  }
+  
+  
+  .header-list{
+    height:95px;
+    width:64%;
+    float: left;
+    margin :2.5px 0px;
+  }
+   
+  .header-list li{
+    float: left;
+    margin-top:20px;
+    margin-right:25px ;
+    
+  }
+
+  li{
+    list-style: none;
+  }
+  
+  .header-list a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+  }
+  
+  .header-list a:hover{
+    opacity: 0.8;
+  }
+
+  .container{
+    width: 1050px;
+    padding-top: 150px; 
+    
+    margin: 0 auto;
+  }
+
+  .top-wrapper{
+    
+    width: 1000px;
+    
+    margin:0 auto;
+    text-align: center;
+  }
+  
+  span{
+    border-bottom: 2px solid black;
+  }
+
+  .name{
+    border-bottom: 1px solid grey;
+    width:984.35px;
+    margin: 0 auto;
+  }
+
+  p{
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .main{
+    width: 1000px;
+    padding-bottom :30px;
+    margin:0 auto;
+  }
+
+  .footer{
+    height:100px;
+    background-color: #f7f7f7;
+  }
+  
+  .footer-list{
+    height:100px;
+    width :65%;
+    
+    margin:0 auto;
+    line-height: 80px;
+   
+  }
+  
+  .footer-list li{
+    float:left;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 13px;
+    
+  }
+  
+  .footer-list a{
+    color:black;
+    text-decoration: none;
+  }
+  
+  .footer-list a:hover{
+    opacity: 0.8;
+  }
